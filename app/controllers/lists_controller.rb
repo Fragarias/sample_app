@@ -10,6 +10,7 @@ class ListsController < ApplicationController
       redirect_to list_path(list.id)
     else
       render :new
+      # redirect_to new_list_path
     end
   end
 
